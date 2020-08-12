@@ -27,3 +27,4 @@ stages:
         repository: 'ujjwal25-azure-devops-currentcy-calculator'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
+        tags: '$(tag)'
