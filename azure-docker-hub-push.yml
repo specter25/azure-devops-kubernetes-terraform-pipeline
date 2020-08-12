@@ -23,8 +23,8 @@ stages:
     - task: Docker@2
       displayName: Build an image
       inputs:
-        containerRegistry: 'ujjwal25/currency-exchange-devops'
-        repository: 'ujjwal25-azure-devops-currentcy-calculator'
+        containerRegistry: 'ujjwal25'
+        repository: 'ujjwal25/currency-exchange-devops'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
